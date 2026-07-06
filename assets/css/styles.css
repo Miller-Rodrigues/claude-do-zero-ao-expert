@@ -164,3 +164,7 @@ h3 { font-size: 1.375rem; }
 @media (max-width: 880px) {
   .course-layout { grid-template-columns: 1fr; }
 }
+
+.hero { text-align: center; padding: var(--space-8) var(--space-5); background: linear-gradient(180deg, var(--color-bg-alt), var(--color-bg)); }
+.hero p { max-width: 640px; margin: var(--space-4) auto var(--space-6); color: var(--color-text-muted); }
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-5); padding: var(--space-6) var(--space-5); }
