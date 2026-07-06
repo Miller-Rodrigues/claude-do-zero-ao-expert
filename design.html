@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Design — Claude do Zero ao Expert</title>
+  <meta name="description" content="Trilha completa para criar e iterar protótipos visuais com Claude Artifacts: interfaces, componentes e boas práticas de design.">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main class="container course-layout">
+    <aside id="course-sidebar"></aside>
+    <section id="course-content"></section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script type="module">
+    import { initLayout } from './assets/js/layout.js';
+    import { initCourseViewer } from './assets/js/course-viewer.js';
+    import { designModules } from './assets/data/design-modules.js';
+
+    initLayout();
+    initCourseViewer(designModules, {
+      sidebarEl: document.getElementById('course-sidebar'),
+      contentEl: document.getElementById('course-content'),
+    });
+  </script>
+</body>
+</html>
