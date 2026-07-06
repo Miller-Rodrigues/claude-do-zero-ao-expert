@@ -151,7 +151,7 @@ export const codeModules = [
     status: 'completo',
     objective: 'Usar o modo de planejamento para revisar a estratégia do Claude Code antes de qualquer alteração.',
     steps: [
-      'Ative o modo plan pressionando Shift+Tab duas vezes (ou digite "/plan") antes de pedir uma alteração maior no código.',
+      'Ative o modo plan pressionando Shift+Tab (o atalho alterna entre os modos de permissão disponíveis) antes de pedir uma alteração maior no código, ou já inicie a sessão nesse modo com "claude --permission-mode plan" no terminal.',
       'Peça a tarefa normalmente, como "adicione autenticação por token nesta API" — o Claude Code vai ler os arquivos relevantes, mas não vai editar nada ainda.',
       'Revise o plano apresentado: a lista de arquivos que serão alterados, a abordagem técnica escolhida e os passos em ordem.',
       'Aprove o plano para o Claude Code sair do modo plan e começar a implementar, ou peça ajustes na estratégia antes de liberar a execução.',
@@ -405,7 +405,7 @@ export const codeModules = [
     steps: [
       'Use "/clear" para resetar completamente a janela de contexto entre tarefas não relacionadas, em vez de acumular tudo em uma única sessão longa.',
       'Prefira pedir ao Claude Code para usar busca (Grep/Glob) antes de ler arquivos inteiros — isso evita carregar conteúdo desnecessário na janela de contexto.',
-      'Observe o indicador de uso de contexto durante a sessão; quando ultrapassar 40-50%, considere rodar "/compact" para resumir a conversa ou "/clear" para recomeçar.',
+      'Observe o indicador de uso de contexto durante a sessão; quando perceber que ele está subindo de forma significativa, ou que as respostas começam a demorar mais ou perder precisão, considere rodar "/compact" para resumir a conversa ou "/clear" para recomeçar.',
       'Divida tarefas grandes em subtarefas menores por sessão (uma feature ou um bug por vez), em vez de tentar resolver um projeto inteiro em uma única conversa.',
     ],
     useCases: [
@@ -511,7 +511,8 @@ export const codeModules = [
     status: 'completo',
     objective: 'Rodar múltiplas sessões do Claude Code em paralelo, cada uma em seu próprio worktree do git.',
     steps: [
-      'Rode "claude --worktree" (ou a forma curta "claude -w") a partir do projeto para criar automaticamente um worktree isolado, checar out uma nova branch e iniciar a sessão já dentro dela.',
+      'A partir do diretório principal do projeto, rode "git worktree add ../nome-do-worktree nome-da-branch" para criar um novo worktree isolado em um diretório irmão, em uma branch nova ou existente.',
+      'Entre no diretório do novo worktree com "cd ../nome-do-worktree" e rode "claude" normalmente — a sessão vai operar nesse worktree e branch isolados, totalmente independentes da sua cópia de trabalho principal.',
       'Abra um segundo terminal e repita o processo com outro nome de branch, criando um worktree diferente para trabalhar em uma segunda tarefa em paralelo.',
       'Verifique com "git worktree list" que cada sessão do Claude Code está de fato operando em um diretório e branch isolados, sem risco de uma sessão sobrescrever os arquivos da outra.',
       'Depois de finalizar e mergear o trabalho de um worktree, remova-o com "git worktree remove caminho/do/worktree" para manter o repositório limpo.',
