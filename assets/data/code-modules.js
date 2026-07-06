@@ -555,7 +555,7 @@ export const codeModules = [
     ],
     useCases: [
       'Bloquear com um hook PreToolUse qualquer tentativa de editar arquivos sensíveis, como ".env" ou pastas de credenciais, mesmo que o Claude Code tente por engano.',
-      'Auditar every comando Bash executado durante uma sessão, registrando em um arquivo de log local via hook PreToolUse antes de cada execução.',
+      'Auditar todo comando Bash executado durante uma sessão, registrando em um arquivo de log local via hook PreToolUse antes de cada execução.',
       'Rodar testes automaticamente com um hook PostToolUse sempre que um arquivo de código-fonte for editado, dando feedback imediato sobre regressões.',
     ],
     recommendations: [
