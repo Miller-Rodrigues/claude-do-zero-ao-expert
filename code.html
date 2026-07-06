@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Code — Claude do Zero ao Expert</title>
+  <meta name="description" content="Trilha completa para dominar o Claude Code: instalação da CLI, comandos, hooks, subagents, MCP e fluxos de trabalho agentic no terminal.">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main class="container course-layout">
+    <aside id="course-sidebar"></aside>
+    <section id="course-content"></section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script type="module">
+    import { initLayout } from './assets/js/layout.js';
+    import { initCourseViewer } from './assets/js/course-viewer.js';
+    import { codeModules } from './assets/data/code-modules.js';
+
+    initLayout();
+    initCourseViewer(codeModules, {
+      sidebarEl: document.getElementById('course-sidebar'),
+      contentEl: document.getElementById('course-content'),
+    });
+  </script>
+</body>
+</html>
