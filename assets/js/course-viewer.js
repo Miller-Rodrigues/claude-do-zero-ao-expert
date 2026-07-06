@@ -2,6 +2,15 @@ export function findModuleById(modules, id) {
   return modules.find(m => m.id === id);
 }
 
+export function findAdjacentModules(modules, id) {
+  const index = modules.findIndex(m => m.id === id);
+  if (index === -1) return { prev: undefined, next: undefined };
+  return {
+    prev: modules[index - 1],
+    next: modules[index + 1],
+  };
+}
+
 export function buildSidebar(modules) {
   const blocks = [...new Set(modules.map(m => m.block))];
   return blocks.map(block => {
@@ -43,7 +52,14 @@ function renderLinks(links = []) {
   return `<section class="module__links"><h3>Links de referência</h3><ul>${items}</ul></section>`;
 }
 
-export function renderModule(module) {
+function renderNav({ prev, next } = {}) {
+  if (!prev && !next) return '';
+  const prevLink = prev ? `<a class="btn btn-secondary" href="#${prev.id}">← ${prev.title}</a>` : '';
+  const nextLink = next ? `<a class="btn btn-primary" href="#${next.id}">${next.title} →</a>` : '';
+  return `<nav class="module-nav">${prevLink}${nextLink}</nav>`;
+}
+
+export function renderModule(module, { prev, next } = {}) {
   if (!module) {
     return `<div class="module module--empty"><p>Selecione um módulo no menu ao lado.</p></div>`;
   }
@@ -54,6 +70,7 @@ export function renderModule(module) {
         <h2>${module.title}</h2>
         <p class="module__ementa">${module.objective || ''}</p>
         <p class="module__soon">Conteúdo completo chega na próxima etapa do curso.</p>
+        ${renderNav({ prev, next })}
       </div>
     `;
   }
@@ -70,6 +87,7 @@ export function renderModule(module) {
       <section><h3>Recomendações</h3><ul>${recommendations}</ul></section>
       ${renderVideos(module.videos)}
       ${renderLinks(module.links)}
+      ${renderNav({ prev, next })}
     </div>
   `;
 }
@@ -80,7 +98,8 @@ export function initCourseViewer(modules, { sidebarEl, contentEl }) {
   function renderFromHash() {
     const id = window.location.hash.replace('#', '') || modules[0]?.id;
     const active = findModuleById(modules, id);
-    contentEl.innerHTML = renderModule(active);
+    const { prev, next } = findAdjacentModules(modules, id);
+    contentEl.innerHTML = renderModule(active, { prev, next });
     sidebarEl.querySelectorAll('.sidebar__link').forEach(link => {
       link.classList.toggle('is-active', link.getAttribute('href') === `#${id}`);
     });
