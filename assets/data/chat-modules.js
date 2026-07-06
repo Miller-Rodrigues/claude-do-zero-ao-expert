@@ -241,7 +241,7 @@ export const chatModules = [
         url: 'https://www.youtube.com/watch?v=NOnJlQ1n_XA',
         youtubeId: 'NOnJlQ1n_XA',
         publishedApprox: 'publicado em 2026',
-        viewsApprox: 'comparação prática entre os três modelos em tarefas reais',
+        viewsApprox: 'comparação prática entre os três modelos em tarefas reais; busca ampla em português (10+ variações de consulta, incluindo termos e canais de tecnologia brasileiros) não encontrou vídeo em PT-BR dedicado à comparação de modelos dentro do claude.ai — o tema aparece em artigos de blog (Canaltech, TechTudo), não em vídeos',
       },
     ],
     links: [
@@ -312,7 +312,7 @@ export const chatModules = [
         url: 'https://www.youtube.com/watch?v=hP1bNevQEGI',
         youtubeId: 'hP1bNevQEGI',
         publishedApprox: 'publicado em 2024',
-        viewsApprox: 'guia completo sobre configurar instruções personalizadas no Claude',
+        viewsApprox: 'guia completo sobre configurar instruções personalizadas no Claude; busca ampla em português (9+ variações de consulta, incluindo comunidades de IA brasileiras) não encontrou vídeo em PT-BR dedicado a instruções personalizadas/preferências de perfil — o tema é coberto por artigos de blog (TechTudo, FindSkill.ai), não por vídeos dedicados',
       },
     ],
     links: [
