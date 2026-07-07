@@ -32,7 +32,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Introdução ao Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Primeiros passos com o Claude Cowork', url: 'https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork' },
     ],
   },
   {
@@ -67,7 +67,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Primeiros passos com agentes', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Página oficial do produto Claude Cowork', url: 'https://claude.com/product/cowork' },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Automação de tarefas', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Escolhendo entre Claude Cowork ou Chat', url: 'https://claude.com/resources/tutorials/choosing-between-claude-cowork-or-chat' },
     ],
   },
   {
@@ -139,7 +139,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Configurar permissões', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Permitir que o Claude use seu computador no Cowork', url: 'https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork' },
     ],
   },
   {
@@ -175,7 +175,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Conectores e integrações', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usar conectores para estender as capacidades do Claude', url: 'https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities' },
     ],
   },
   {
@@ -211,7 +211,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Monitoramento de agentes', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Monitorar atividade do Claude Cowork com OpenTelemetry', url: 'https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry' },
     ],
   },
   {
@@ -247,7 +247,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Tarefas agendadas', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Agendar tarefas recorrentes no Claude Cowork', url: 'https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork' },
     ],
   },
   {
@@ -319,7 +319,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Projetos e compartilhamento', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usar o Claude Cowork em planos Team e Enterprise', url: 'https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans' },
     ],
   },
   {
@@ -427,7 +427,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — MCP (Model Context Protocol)', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Conectores personalizados via MCP remoto', url: 'https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp' },
     ],
   },
   {
@@ -463,7 +463,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Memória do Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Busca e memória de conversas do Claude', url: 'https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context' },
     ],
   },
   {
@@ -499,7 +499,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Gerenciar custos e limites de uso', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Como funcionam os limites de uso e de tamanho', url: 'https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work' },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Projetos e organização de fluxos', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Organizar tarefas com projetos no Claude Cowork', url: 'https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork' },
     ],
   },
   {
@@ -571,7 +571,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Conectores e integrações', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usar conectores para estender as capacidades do Claude', url: 'https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities' },
     ],
   },
   {
@@ -607,7 +607,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Projetos e compartilhamento', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Primeiros passos com o Claude Cowork (plano de execução e aprovação)', url: 'https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork' },
     ],
   },
   {
@@ -643,7 +643,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Uso seguro do Claude Cowork', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usar o Claude Cowork com segurança', url: 'https://support.claude.com/en/articles/13364135-use-claude-cowork-safely' },
     ],
   },
   {
@@ -679,7 +679,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Tarefas agendadas', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Agendar tarefas recorrentes no Claude Cowork', url: 'https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork' },
     ],
   },
   {
@@ -751,7 +751,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Introdução ao Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Permitir que o Claude use seu computador no Cowork', url: 'https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork' },
     ],
   },
   {
@@ -787,7 +787,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Monitoramento de agentes', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Agendar tarefas recorrentes no Claude Cowork (painel Scheduled)', url: 'https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork' },
     ],
   },
   {
@@ -823,7 +823,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Uso seguro do Claude Cowork', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Monitorar atividade do Claude Cowork com OpenTelemetry', url: 'https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry' },
     ],
   },
   {
@@ -859,7 +859,7 @@ export const coworkModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Visão geral das ferramentas Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Navegando pelo app desktop (Chat, Cowork, Code)', url: 'https://claude.com/resources/tutorials/navigating-the-claude-desktop-app' },
     ],
   },
 ];
