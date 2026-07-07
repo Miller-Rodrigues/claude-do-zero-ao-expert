@@ -32,7 +32,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Introdução ao Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Primeiros passos com o Claude', url: 'https://support.claude.com/en/articles/8114491-get-started-with-claude' },
     ],
   },
   {
@@ -102,7 +102,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Projects', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Como criar e gerenciar Projects', url: 'https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects' },
     ],
   },
   {
@@ -138,7 +138,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Enviando arquivos para o Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Enviando arquivos para o Claude', url: 'https://support.claude.com/en/articles/8241126-upload-files-to-claude' },
     ],
   },
   {
@@ -174,7 +174,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — O que são Artifacts e como usá-los', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -209,7 +209,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Busca e memória de conversas', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Busca e memória de conversas', url: 'https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context' },
     ],
   },
   {
@@ -245,7 +245,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Escolhendo o modelo certo', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Escolhendo o modelo certo (Haiku, Sonnet, Opus, Fable)', url: 'https://claude.com/resources/tutorials/choosing-the-right-claude-model' },
     ],
   },
   {
@@ -316,7 +316,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Personalização do Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Recursos de personalização do Claude', url: 'https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features' },
     ],
   },
   {
@@ -388,7 +388,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Artifacts (versões e edição)', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — O que são Artifacts e como usá-los (versões e edição)', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -423,7 +423,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Privacidade e proteção de dados', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usando conversas incógnitas', url: 'https://support.claude.com/en/articles/12260368-use-incognito-chats' },
     ],
   },
   {
@@ -495,7 +495,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Protótipos de apps com Artifacts', url: 'https://claude.com/resources/tutorials/prototype-ai-powered-apps-with-claude-artifacts' },
     ],
   },
   {
@@ -531,7 +531,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Pesquisa (Research) no Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usando o Research no Claude', url: 'https://support.claude.com/en/articles/11088861-use-research-on-claude' },
     ],
   },
   {
@@ -567,7 +567,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Conectores do Google Workspace', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Usando conectores do Google Workspace', url: 'https://support.claude.com/en/articles/10166901-use-google-workspace-connectors' },
     ],
   },
   {
@@ -603,7 +603,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Planos e preços', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Escolhendo um plano do Claude', url: 'https://support.claude.com/en/articles/11049762-choose-a-claude-plan' },
     ],
   },
   {
@@ -639,7 +639,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Melhorando respostas do Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Quando o prompt não traz uma resposta útil', url: 'https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer' },
     ],
   },
   {
@@ -819,7 +819,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Uso responsável do Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Central de Ajuda — Por que o Claude pode dar respostas incorretas', url: 'https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on' },
     ],
   },
   {
@@ -855,7 +855,7 @@ export const chatModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Visão geral dos produtos Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Claude — Visão geral dos produtos (Chat, Cowork, Code, Design)', url: 'https://claude.com/product/overview' },
     ],
   },
 ];
