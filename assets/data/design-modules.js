@@ -32,7 +32,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — What are artifacts and how do I use them?', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -67,7 +67,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Criando protótipos com Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Use artifacts to visualize and create AI apps without writing code', url: 'https://claude.com/resources/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code' },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Iterando sobre Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — What are artifacts and how do I use them? (versões e iteração)', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -139,7 +139,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Enviando imagens e arquivos ao Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Upload files to Claude', url: 'https://support.claude.com/en/articles/8241126-upload-files-to-claude' },
     ],
   },
   {
@@ -175,7 +175,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Tipos de Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — What are artifacts and how do I use them? (tipos de Artifact)', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -211,7 +211,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Gerenciando conversas e Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — How can I delete or rename a conversation?', url: 'https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation' },
     ],
   },
   {
@@ -247,7 +247,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Componentes React em Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Set up your design system in Claude Design (componentes reutilizáveis)', url: 'https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design' },
     ],
   },
   {
@@ -283,7 +283,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Exportando Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Design (seção Export e Share)', url: 'https://support.claude.com/en/articles/14604416-get-started-with-claude-design' },
     ],
   },
   {
@@ -319,7 +319,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Design systems e estilo visual', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Set up your design system in Claude Design (cores e tipografia)', url: 'https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design' },
     ],
   },
   {
@@ -355,7 +355,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Código-fonte de Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — What are artifacts and how do I use them? (código-fonte)', url: 'https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them' },
     ],
   },
   {
@@ -391,7 +391,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Histórico de versões de Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Design (Manage Versions)', url: 'https://support.claude.com/en/articles/14604416-get-started-with-claude-design' },
     ],
   },
   {
@@ -427,7 +427,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Interatividade em Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Custom visuals in chat and Cowork', url: 'https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork' },
     ],
   },
   {
@@ -463,7 +463,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Componentes React interativos', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Use artifacts to visualize and create AI apps without writing code', url: 'https://claude.com/resources/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code' },
     ],
   },
   {
@@ -499,7 +499,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Claude Cowork', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Cowork', url: 'https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork' },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Boas práticas de design com Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Design (revisão de acessibilidade e contraste)', url: 'https://support.claude.com/en/articles/14604416-get-started-with-claude-design' },
     ],
   },
   {
@@ -571,7 +571,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Design systems e estilo visual', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Set up your design system in Claude Design', url: 'https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design' },
     ],
   },
   {
@@ -607,7 +607,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Interatividade em Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Custom visuals in chat and Cowork (transições e microinterações em HTML)', url: 'https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork' },
     ],
   },
   {
@@ -643,7 +643,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Exportando Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Design (exportar para Adobe, Canva, Figma e mais)', url: 'https://support.claude.com/en/articles/14604416-get-started-with-claude-design' },
     ],
   },
   {
@@ -679,7 +679,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Criando apresentações com Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Using Claude Design for presentations and slide decks', url: 'https://claude.com/resources/tutorials/using-claude-design-for-presentations-and-slide-decks' },
     ],
   },
   {
@@ -715,7 +715,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Criando páginas web com Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Claude Design (protótipos e páginas web)', url: 'https://claude.com/product/design' },
     ],
   },
   {
@@ -751,7 +751,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Compartilhando projetos e Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Get started with Claude Design (comentários e revisão colaborativa)', url: 'https://support.claude.com/en/articles/14604416-get-started-with-claude-design' },
     ],
   },
   {
@@ -787,7 +787,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Visualizações de dados em Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude Help Center — Use live artifacts in Claude Cowork (dashboards interativos)', url: 'https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork' },
     ],
   },
   {
@@ -823,7 +823,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Prototipagem com Artifacts', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Use artifacts to visualize and create AI apps without writing code (prototipagem rápida)', url: 'https://claude.com/resources/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code' },
     ],
   },
   {
@@ -859,7 +859,7 @@ export const designModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Visão geral dos produtos Claude', url: 'https://docs.anthropic.com' },
+      { label: 'Claude by Anthropic — Visão geral dos produtos Claude (Chat, Cowork, Code, Design)', url: 'https://claude.com/product' },
     ],
   },
 ];
