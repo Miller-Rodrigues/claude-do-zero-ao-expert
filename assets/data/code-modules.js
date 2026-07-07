@@ -852,12 +852,12 @@ export const codeModules = [
     ],
     videos: [
       {
-        title: 'Claude Code: Guia COMPLETO que todo desenvolvedor precisa saber',
-        channel: 'Full Cycle',
-        url: 'https://www.youtube.com/watch?v=NH_NtrN2BEs',
-        youtubeId: 'NH_NtrN2BEs',
+        title: 'O Claude Code agora coordena 1.000 agentes ao mesmo tempo (e você ainda programa sozinho?)',
+        channel: 'Felipe Rocha • Full Stack Club',
+        url: 'https://www.youtube.com/watch?v=YWeLcFh7w8Y',
+        youtubeId: 'YWeLcFh7w8Y',
         publishedApprox: 'publicado em 2026',
-        viewsApprox: 'vídeo em português explicando quando e como usar o Claude Code no fluxo de desenvolvimento de software',
+        viewsApprox: 'vídeo em português sobre orquestração de múltiplos agentes com o Claude Code, encerrando a trilha com uma visão do que vem a seguir no fluxo de desenvolvimento',
       },
     ],
     links: [
