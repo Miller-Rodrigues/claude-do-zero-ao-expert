@@ -852,12 +852,12 @@ export const codeModules = [
     ],
     videos: [
       {
-        title: 'Claude Cowork, Code e Chat: quando usar cada um (O Guia Definitivo)',
-        channel: 'Hashtag Treinamentos',
-        url: 'https://www.youtube.com/watch?v=pWE3zdC_MIo',
-        youtubeId: 'pWE3zdC_MIo',
+        title: 'Claude Code: Guia COMPLETO que todo desenvolvedor precisa saber',
+        channel: 'Full Cycle',
+        url: 'https://www.youtube.com/watch?v=NH_NtrN2BEs',
+        youtubeId: 'NH_NtrN2BEs',
         publishedApprox: 'publicado em 2026',
-        viewsApprox: 'vídeo em português comparando quando usar Claude Code, Cowork e Chat para diferentes tipos de tarefa',
+        viewsApprox: 'vídeo em português explicando quando e como usar o Claude Code no fluxo de desenvolvimento de software',
       },
     ],
     links: [
