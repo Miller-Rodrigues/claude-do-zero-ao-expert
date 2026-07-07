@@ -850,12 +850,12 @@ export const designModules = [
     ],
     videos: [
       {
-        title: 'Claude Chat vs Cowork vs Claude Code — Comparativo TÉCNICO Completo',
-        channel: 'NoCode StartUp',
-        url: 'https://www.youtube.com/watch?v=wV32akPKcXI',
-        youtubeId: 'wV32akPKcXI',
+        title: 'Claude Code, Cowork, Chat ou API: Qual VOCÊ Deve Usar em 2026?',
+        channel: 'Jornada de Dados - Luciano Vasconcelos',
+        url: 'https://www.youtube.com/watch?v=x9iPiJ06grw',
+        youtubeId: 'x9iPiJ06grw',
         publishedApprox: 'publicado em 2026',
-        viewsApprox: 'vídeo em português comparando Claude Chat, Cowork e Code, ajudando a entender quando usar cada trilha do ecossistema Claude',
+        viewsApprox: 'vídeo em português comparando Claude Chat, Cowork, Code e API, ajudando a entender quando usar cada trilha do ecossistema Claude',
       },
     ],
     links: [
