@@ -32,7 +32,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Guia de início rápido do Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Guia de início rápido do Claude Code', url: 'https://code.claude.com/docs/en/quickstart' },
     ],
   },
   {
@@ -68,7 +68,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Comandos e slash commands do Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Comandos e slash commands do Claude Code', url: 'https://code.claude.com/docs/en/interactive-mode' },
     ],
   },
   {
@@ -104,7 +104,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Fluxo de edição e revisão de arquivos no Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Fluxo de edição e revisão de arquivos no Claude Code', url: 'https://code.claude.com/docs/en/common-workflows' },
     ],
   },
   {
@@ -140,7 +140,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Fluxos de trabalho comuns (explorar código novo)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Fluxos de trabalho comuns (explorar código novo)', url: 'https://code.claude.com/docs/en/common-workflows#understand-new-codebases' },
     ],
   },
   {
@@ -176,7 +176,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Modos de permissão e Plan Mode', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Modos de permissão e Plan Mode', url: 'https://code.claude.com/docs/en/permission-modes' },
     ],
   },
   {
@@ -212,7 +212,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — CLAUDE.md e organização de monorepos', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — CLAUDE.md e organização de monorepos', url: 'https://code.claude.com/docs/en/large-codebases' },
     ],
   },
   {
@@ -248,7 +248,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Hooks do Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Hooks do Claude Code', url: 'https://code.claude.com/docs/en/hooks-guide' },
     ],
   },
   {
@@ -284,7 +284,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Comandos personalizados (slash commands)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Comandos personalizados (slash commands)', url: 'https://code.claude.com/docs/en/skills' },
     ],
   },
   {
@@ -320,7 +320,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Configurar permissões de ferramentas', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Configurar permissões de ferramentas', url: 'https://code.claude.com/docs/en/permissions' },
     ],
   },
   {
@@ -356,7 +356,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Configurações do Claude Code (settings.json)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Configurações do Claude Code (settings.json)', url: 'https://code.claude.com/docs/en/settings' },
     ],
   },
   {
@@ -392,7 +392,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Claude Code e integração com Git/GitHub', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Claude Code e integração com Git/GitHub', url: 'https://code.claude.com/docs/en/common-workflows#create-pull-requests' },
     ],
   },
   {
@@ -428,7 +428,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Gerenciamento de contexto e janela de contexto', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Gerenciamento de contexto e janela de contexto', url: 'https://code.claude.com/docs/en/context-window' },
     ],
   },
   {
@@ -464,7 +464,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Criar e usar subagents personalizados', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Criar e usar subagents personalizados', url: 'https://code.claude.com/docs/en/sub-agents' },
     ],
   },
   {
@@ -500,7 +500,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Conectar Claude Code a ferramentas via MCP', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Conectar Claude Code a ferramentas via MCP', url: 'https://code.claude.com/docs/en/mcp' },
     ],
   },
   {
@@ -537,7 +537,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Sessões paralelas com worktrees', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Sessões paralelas com worktrees', url: 'https://code.claude.com/docs/en/worktrees' },
     ],
   },
   {
@@ -573,7 +573,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Eventos de hooks (PreToolUse, PostToolUse e outros)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Eventos de hooks (PreToolUse, PostToolUse e outros)', url: 'https://code.claude.com/docs/en/hooks-reference' },
     ],
   },
   {
@@ -609,7 +609,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Executar o Claude Code de forma programática (modo headless)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Executar o Claude Code de forma programática (modo headless)', url: 'https://code.claude.com/docs/en/headless' },
     ],
   },
   {
@@ -645,7 +645,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Descobrir e instalar plugins via marketplaces', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Descobrir e instalar plugins via marketplaces', url: 'https://code.claude.com/docs/en/plugins' },
     ],
   },
   {
@@ -681,7 +681,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Fluxos de trabalho comuns (desenvolvimento orientado a testes)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Fluxos de trabalho comuns (desenvolvimento orientado a testes)', url: 'https://code.claude.com/docs/en/common-workflows#work-with-tests' },
     ],
   },
   {
@@ -717,7 +717,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Revisão de código (Code Review) com o Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Revisão de código (Code Review) com o Claude Code', url: 'https://code.claude.com/docs/en/code-review' },
     ],
   },
   {
@@ -753,7 +753,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Modos de permissão e autonomia do Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Modos de permissão e autonomia do Claude Code', url: 'https://code.claude.com/docs/en/permission-modes' },
     ],
   },
   {
@@ -789,7 +789,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Fluxos de trabalho comuns (refatoração de código)', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Fluxos de trabalho comuns (refatoração de código)', url: 'https://code.claude.com/docs/en/common-workflows#refactor-code' },
     ],
   },
   {
@@ -825,7 +825,7 @@ export const codeModules = [
       },
     ],
     links: [
-      { label: 'Documentação oficial — Depuração e resolução de problemas com o Claude Code', url: 'https://docs.anthropic.com' },
+      { label: 'Documentação oficial — Depuração e resolução de problemas com o Claude Code', url: 'https://code.claude.com/docs/en/common-workflows#fix-bugs-efficiently' },
     ],
   },
   {
